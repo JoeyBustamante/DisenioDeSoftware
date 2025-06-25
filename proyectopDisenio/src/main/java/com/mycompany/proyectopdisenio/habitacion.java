@@ -8,7 +8,7 @@ package com.mycompany.proyectopdisenio;
  *
  * @author joeybustamante
  */
-public class habitacion extends Hotel {
+public class habitacion extends Hotel implements reservable {
     public String numero;
     public String tipo;
     public double precioPorNoche;

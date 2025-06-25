@@ -10,7 +10,7 @@ import java.util.Date;
  *
  * @author joeybustamante
  */
-public class reserva extends usuario{
+public class reserva extends usuario implements notificable{
     public Date fecha;
     public String estado;
     public double montoTotal;
