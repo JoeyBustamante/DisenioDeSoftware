@@ -10,4 +10,8 @@ package com.mycompany.proyectopdisenio;
  */
 public class operadorTuristico extends persona{
     
+    public operadorTuristico(int id, String nombre) {
+        super(id, nombre);
+    }
+    
 }

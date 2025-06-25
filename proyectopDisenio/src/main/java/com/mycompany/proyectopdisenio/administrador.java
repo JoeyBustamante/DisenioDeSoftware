@@ -10,4 +10,8 @@ package com.mycompany.proyectopdisenio;
  */
 public class administrador extends persona  {
     
+    public administrador(int id, String nombre) {
+        super(id, nombre);
+    }
+    
 }

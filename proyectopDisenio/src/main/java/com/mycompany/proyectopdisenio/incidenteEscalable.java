@@ -8,10 +8,6 @@ package com.mycompany.proyectopdisenio;
  *
  * @author joeybustamante
  */
-public class agenteSoporte extends persona{
-    
-    public agenteSoporte(int id, String nombre) {
-        super(id, nombre);
-    }
+public interface incidenteEscalable {
     
 }

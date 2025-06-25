@@ -8,10 +8,17 @@ package com.mycompany.proyectopdisenio;
  *
  * @author joeybustamante
  */
-public class agenteSoporte extends persona{
+public class politica extends administrador {
     
-    public agenteSoporte(int id, String nombre) {
+    public String tipoPolitica;
+    public String descripcion;
+    
+    
+    public politica(int id, String nombre,String tipoPolitica,String descripcion) {
         super(id, nombre);
+        this.tipoPolitica =tipoPolitica;
+        this.descripcion=descripcion;
+        
     }
     
 }

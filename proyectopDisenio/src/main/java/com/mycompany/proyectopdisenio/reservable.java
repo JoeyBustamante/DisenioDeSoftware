@@ -8,10 +8,8 @@ package com.mycompany.proyectopdisenio;
  *
  * @author joeybustamante
  */
-public class agenteSoporte extends persona{
+public interface reservable {
     
-    public agenteSoporte(int id, String nombre) {
-        super(id, nombre);
-    }
+    
     
 }
